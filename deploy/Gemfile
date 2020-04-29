@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+gem 'net-scp'
+gem 'ed25519'
+gem 'bcrypt_pbkdf'
+gem 'net-ssh'
